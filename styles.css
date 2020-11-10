@@ -1,0 +1,333 @@
+@import url('https://fonts.googleapis.com/css?family=montserrat:500');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+
+  } 
+
+html, body {
+    height: 100%;
+}
+#container {
+    min-height: 100%;
+}
+
+.main{
+    overflow: auto;
+    padding-bottom: 50px;
+}
+
+#footer {
+    background-color: #0088a9;
+    position: bottom;
+    height: 50px;
+    margin-top: -100px;
+    clear: both;
+}
+
+
+h1 {
+    font-size: 8vw;
+    color: #ffffff;
+    background-color: none; 
+    font-family: "monserrat", sans-serif;
+
+}
+
+h2 {
+    font-size: 2vw;
+    color: #ffffff;
+    background-color: none; 
+    font-family: "monserrat", sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+
+h3 {
+    font-size: 1.5vw;
+    color: #ffffff;
+    background-color: none; 
+    font-family: "monserrat", sans-serif;
+    font-weight: 500;
+    text-align: center;
+}
+
+P {
+    font-size: 1vw;
+    color: #ffffff;
+    background-color: none; 
+    font-family: "monserrat", sans-serif;
+    font-weight: 300;
+    text-align: center;
+    line-height: 1.5
+}
+
+h4 {
+    font-size: 1vw;
+    color: #ffffff;
+    background-color: none; 
+    font-family: "monserrat", sans-serif;
+    font-weight: 300;
+    text-align: center;
+    line-height: 1.5
+}
+
+h5 {
+    font-size: 1vw;
+    color: #0088a9;
+    background-color: none; 
+    font-family: "monserrat", sans-serif;
+    font-weight: 300;
+    text-align: center;
+    line-height: 1.5
+}
+
+header {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    background-color: #000000;
+}
+
+li, a, button {
+    font-family: "monserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+    z-index: 9999;
+    
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    z-index: 9999;
+  
+}
+
+.logo {
+    cursor: pointer;
+    width:80px;
+    height: 50px;
+
+}
+
+.nav_links{
+    list-style:none;
+}
+
+.nav_links li{
+    display:inline-block;
+    padding:0px 20px;
+}
+
+.nav_links li a{
+    transition: all o.3s ease 0s;
+}
+
+.nav_links li a:hover {
+    transition: all o.3s ease 0s;
+    color: #0088a9
+}
+
+button {
+    padding: 9px 25px;
+    background-color: rgba(0, 136,169, 1);
+    border: none;
+    border-radius:10px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+} */
+
+button:hover {
+    background-color: rgba(0, 136,169, 0.8)
+}
+
+.hero {
+    width: 100%;
+    height:80vh;
+    background-image: url(ruth3.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.centerLogo {
+    background-image: url(hello.png);
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -80%);
+    background-repeat: no-repeat;
+}
+
+
+.memyselfandi {
+    position: relative;
+    top:100%;
+    height: 90vh;
+    padding-top:10vh;
+    text-align: center;
+    color: white;
+    text-shadow: 0 0 3px #000;
+    background-image: url(keyboard.png);
+    background-size: cover;
+}
+
+.creative {
+    position: relative;
+    top:100%;
+    height: 200vh;
+    padding-top:10vh;
+    padding-bottom: 10vh;
+    text-align: center;
+    color: white;
+    text-shadow: 0 0 3px #000;
+    background-image: url(ruth3.png);
+    background-size: cover;
+}
+
+
+.iframe-container{
+    position: relative;
+    align-content: left;
+    height: 80vh;
+    width: 100%;
+    padding-bottom: 56.25%; 
+    height: 0;
+  }
+  .iframe-container iframe{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+
+
+.production {
+    position: relative;
+    top:9%;
+    height: 190vh;
+    padding-top:10vh;
+    text-align: center;
+    color: white;
+    text-shadow: 0 0 3px #000;
+    background-image: url(production.png);
+    background-size: cover;
+}
+
+.production2 {
+    position: relative;
+    top:100%;
+    height: 150vh;
+    padding-top:10vh;
+    text-align: center;
+    color: white;
+    text-shadow: 0 0 3px #000;
+    background-image: url(production2.png);
+    background-size: cover;
+}
+
+
+.reviews {
+    position: relative;
+    top:9%;
+    height: 170vh;
+    padding-top:10vh;
+    text-align: center;
+    color: white;
+    text-shadow: 0 0 3px #000;
+    background-image: url(reviews.png);
+    background-size: cover;
+}
+
+.reviews2 {
+    position: relative;
+    top:0%;
+    height: 150vh;
+    padding-top:10vh;
+    text-align: center;
+    color: white;
+    text-shadow: 0 0 3px #000;
+    background-image: url(reviews2.png);
+    background-size: cover;
+}
+.contact {
+    position: relative;
+    top:9%;
+    height: 60vh;
+    padding-top:10vh;
+    text-align: center;
+    color: white;
+    text-shadow: 0 0 3px #000;
+    background-image: url(phone.png);
+    background-size: cover;
+}
+.contact2 {
+    position: relative;
+    top:100%;
+    height: 60vh;
+    padding-top:10vh;
+    text-align: center;
+    color: white;
+    text-shadow: 0 0 3px #000;
+    background-image: url(phone.png);
+    background-size: cover;
+}
+.linkedin {
+    text-align: center;
+   
+}
+
+.instagram {
+    text-align: center;
+   
+}
+
+
+
+
+
+
+/* #divRight {
+
+    width: 45%;
+    float: right;
+    padding: 20px;
+}
+
+#divLeft {
+    width: 45%;
+    float:left;
+    padding: 20px;
+} */
+
+
+
+/* .hello {
+    display: flex;
+    justify-content: center;
+    width:700px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+} */
+
+/* .content {
+    display:flex;
+    position: absolute;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 1em;
+    font-family: "monserrat", sans-serif;
+    
+} */
